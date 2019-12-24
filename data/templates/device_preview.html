@@ -1,0 +1,10 @@
+{% load static %}
+<div class="row text-center">
+  <span class="row mockup_title">{{ device }}</span>
+  <div class="mockup" style="background: url({% get_static_prefix %}/{{ device|lower }}.png) no-repeat;">
+    <div class="limiter">
+    <span class="target_title">{{ original.title }}</span>
+    <span class="target_text">{{ original.text }}</span>
+    </div>
+  </div>
+</div>

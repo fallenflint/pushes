@@ -1,0 +1,31 @@
+.content-wrapper {
+    background: #fff;
+}
+.mockup {
+    text-align: left; padding: 59px 80px 17px 45px; margin: auto; width:343px; height: 119px;
+}
+
+.mockup_title {
+    font-family: 'Roboto';
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgba(18, 1, 1, 0.6);
+}
+
+.target_title, .target_text {
+    color: rgba(18, 1, 1, 0.6);
+    font-size: 8pt;
+    display: block;
+    max-width: 220px;
+    max-height: 30px;
+}
+
+.target_title {
+    font-weight: bold;
+}
+
+.limiter {
+    max-height: 45px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
